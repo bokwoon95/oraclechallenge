@@ -1,4 +1,4 @@
-# Oracle Internship Technical Challenge
+# Oracle Internship Technical Test
 
 ## How to build the Docker image from the Dockerfile
 
@@ -14,7 +14,7 @@
 
     `docker build -t oraclechallenge .`
 
-* Run the Docker image (labeled 'oraclechallenge'). This command also maps the docker port 80 to your computer port 8000
+* Run the Docker image (labeled 'oraclechallenge'). This command also maps the docker port `80` to your computer port `8000`
 
     `docker run -p 8000:80 oraclechallenge`
 
