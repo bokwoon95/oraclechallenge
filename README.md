@@ -1,1 +1,1 @@
-# Oracle Internship Techincal Challenge
+# Oracle Internship Technical Challenge
