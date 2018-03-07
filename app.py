@@ -30,7 +30,8 @@ def fibonacci():
 
     else:
         fibonaccilist = [0, 1]
-        # While the length of 
+        # While the length of list has still not reach the required length,
+        # Keep adding a new fibonacci element by summing the previous 2 elements
         while (len(fibonaccilist) < json_input):
             last_element = fibonaccilist[-1] + fibonaccilist[-2]
             fibonaccilist.append(last_element)
